@@ -13,14 +13,14 @@ class CreatePeopleTable extends Migration
      */
     public function up()
     {
-        Schema::create('people', function (Blueprint $table) {
-            $table->increments('id');
-            $table->string('first_name');
-            $table->string('last_name');
-            $table->string('department')->default(null);
-            $table->string('tittle')->default(null);
-            $table->timestamps();
-        });
+        // Schema::create('people', function (Blueprint $table) {
+        //     $table->increments('id');
+        //     $table->string('first_name');
+        //     $table->string('last_name');
+        //     $table->string('department')->default(null);
+        //     $table->string('tittle')->default(null);
+        //     $table->timestamps();
+        // });
     }
 
     /**
@@ -30,6 +30,6 @@ class CreatePeopleTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('people');
+        //Schema::dropIfExists('people');
     }
 }
