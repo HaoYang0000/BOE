@@ -326,7 +326,9 @@ class ChartController extends Controller
 	        //$filename = $file->getClientOriginalName();
 	        //Set directory to store file
 	        $destinationPath = storage_path()."/files/"; // upload path
-	        $file->move($destinationPath, $filename); // uploading file to given path
+	        $name=iconv("UTF-8","gb2312", $filename);
+	        $file->move($destinationPath, $name); // uploading file to given path
+	        
 	        File::create([
                 'title'=>$filename,
                 'used'=>false,
