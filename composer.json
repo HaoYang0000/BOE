@@ -1,0 +1,16 @@
+{
+    "name": "boe/performance_management",
+    "description": "BOE SBG企划部业绩管理科业绩管理系统",
+    "keywords": ["BOE", "SBG"],
+    "license": "UIUC",
+    "version": "v1.0.0",
+    "type": "project",
+    "authors": [{
+        "name": "阳皓",
+        "email": "574596971@qq.com"
+    }],
+    "require": {
+        "laravel/framework": "5.4.*",
+        "maatwebsite/excel": "~2.1.0"
+    }
+}
