@@ -1,12 +1,12 @@
 {
     "name": "boe/performance_management",
-    "description": "BOE SBG企划部业绩管理科业绩管理系统",
+    "description": "BOE SBG performance management system",
     "keywords": ["BOE", "SBG"],
     "license": "UIUC",
     "version": "v1.0.0",
     "type": "project",
     "authors": [{
-        "name": "阳皓",
+        "name": "Hao Yang",
         "email": "574596971@qq.com"
     }],
     "type": "project",
